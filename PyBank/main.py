@@ -42,3 +42,12 @@ print("Greatest Increase: ${greatest_increase}")
 print("Greatest Decrease: ${greatest_decrease}")
 
 
+with open("analysis.txt") as file:
+    print("Financial Analysis")
+    print("------------------------")
+    print("Total Months: {total_months}")
+    print("Total Profit/Losses: ${total_profit_losses}")
+    print("Average Change: ${avg_change_profit_losses}")
+    print("Greatest Increase: ${greatest_increase}")
+    print("Greatest Decrease: ${greatest_decrease}")
+
